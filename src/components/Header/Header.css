@@ -1,0 +1,38 @@
+:root {
+    --wa-green: #0A0A0A;
+    --wa-light-green: #25d366;
+    --white: #ffffff;
+    --font-main: 'Poppins', sans-serif;
+  }
+  
+  .top-toolbar {
+    background-color: var(--white);
+    color: var(--white);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 2rem;
+    font-family: var(--font-main);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .toolbar-logo .logo-text {
+    color: var(--wa-green);
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .toolbar-nav a {
+    color: var(--wa-green);
+    text-decoration: none;
+    margin-left: 1.5rem;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+  }
+  
+  .toolbar-nav a:hover {
+    color: var(--wa-light-green);
+  }
+  
